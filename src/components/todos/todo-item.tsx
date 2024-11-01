@@ -6,7 +6,7 @@ const TodoItem = () => {
   return (
     <div className='p-3 my-4 border rounded border-primary bg-secondary'>
       <section className='flex items-center justify-between'>
-        <h2>제목</h2>
+        <h2 className='font-semibold'>제목</h2>
         <div className='flex gap-4'>
           <Button variant='ghost' size='sm' className='p-0'>
             <TrashIcon />
