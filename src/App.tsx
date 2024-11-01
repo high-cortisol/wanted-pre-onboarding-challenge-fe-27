@@ -1,7 +1,7 @@
-import MainPage from './pages/main';
+import AuthPage from './pages/auth';
 
 function App() {
-  return <MainPage />;
+  return <AuthPage />;
 }
 
 export default App;
